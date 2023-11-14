@@ -1,8 +1,8 @@
 build:
-	go build -o bin/exhange
+	go build -o bin/exchange
 
 run: build
-	./bin/exhange
+	./bin/exchange
 
 test:
 	go test -v ./...
